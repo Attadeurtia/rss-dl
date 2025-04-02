@@ -52,7 +52,7 @@ l'option -d pour l’exécuter en arrière plan
 
 Le scripte python fonctionne également indépendamment, vous pouvez l’exécuter avec la commande : `python3 download_mp3.py`
 
-Pensez juste à changer l'url du flux rss![Capture d’écran 2025-04-02 à 12.55.21.png](:/eb195c79d9c241d48cb5fe957387958a)
+Pensez juste à changer l'url du flux rss
 
 **Limites du projet :**
 
