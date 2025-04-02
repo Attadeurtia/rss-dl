@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  youtube-to-mp3:
+    build: . # Chemin ou se trouve le Dockerfile
+    volumes:
+      - ./music:/usr/src/app/music # Chemin local où la musique sera stockée
+    environment:
+      - RSS_FEED_URL='https://exemple.com/feeds' # Remplacez par l'URL de votre flux RSS
+    restart: always
